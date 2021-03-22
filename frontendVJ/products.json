@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "name":"iPhone 1",
+        "price":1200.00
+    },
+    {
+        "id":2,
+        "name":"iPhone 2",
+        "price":1200.00
+    },
+    {
+        "id":3,
+        "name":"iPhone 3",
+        "price":1200.00
+    },
+    {
+        "id":4,
+        "name":"iPhone 4",
+        "price":1200.00
+    },
+    {
+        "id":5,
+        "name":"iPhone 5",
+        "price":1200.00
+    },
+    {
+        "id":6,
+        "name":"iPhone 6",
+        "price":1200.00
+    },
+    {
+        "id":7,
+        "name":"iPhone 7",
+        "price":1200.00
+    },
+    {
+        "id":8,
+        "name":"iPhone 8",
+        "price":1200.00
+    },
+    {
+        "id":9,
+        "name":"iPhone 9",
+        "price":1200.00
+    },
+    {
+        "id":10,
+        "name":"iPhone 10",
+        "price":1200.00
+    },
+    {
+        "id":11,
+        "name":"iPhone 11",
+        "price":1200.00
+    },
+    {
+        "id":12,
+        "name":"iPhone 12",
+        "price":1200.00
+    }
+]

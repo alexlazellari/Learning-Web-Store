@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1e21;
+  color: #ddd;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+}
+
+/* Main styling */
+
+.main {
+  row-gap: 2rem;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  margin-top: 4rem;
+  max-width: 1200px;
+  padding-bottom: 3rem;
+  width: 90%;
+}
+
+/* End main styling */
+
+.items__header {
+  color: #ddd;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* item styling */
+
+.item {
+  justify-items: center;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+  border-top: 1px solid rgba(200, 200, 200, 0.5);
+  column-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 0;
+  row-gap: 1rem;
+}
+
+.item__img {
+  border-radius: 15px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.item__name {
+  text-transform: capitalize;
+}
+
+/* price styling */
+.item__price {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+/* End price styling */
+
+.item__quantity {
+  margin: 0 0.75rem;
+}
+
+/* Increase & Descrease button styling */
+.btn {
+  border: none;
+  border-radius: 3px;
+  color: #ddd;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.25rem;
+  height: 30px;
+  outline: none;
+  width: 30px;
+}
+
+.btn--red {
+  background-color: #f44336;
+}
+
+.btn--blue {
+  background-color: #2196f3;
+}
+/* End increase & descrease button styling */
+
+.trash-bin-btn {
+  background-color: transparent;
+  color: #f44336;
+  justify-self: start;
+  margin-left: 1rem;
+}
+
+/* End item styling */
+
+/* Styling summary */
+
+.summary {
+  align-self: flex-start;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.summary__header {
+  margin-bottom: 1rem;
+}
+
+.summary__content {
+  border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+  border-top: 1px solid rgba(200, 200, 200, 0.5);
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.est-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* End styling summary */
+
+.check-out {
+  background-color: coral;
+  border-radius: 15px;
+  color: #ccc;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 680px) {
+  .item {
+    grid-template-columns: auto 1fr auto auto auto;
+  }
+
+  .trash-bin-btn {
+    margin-left: 0;
+  }
+
+  .summary {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    grid-template-columns: auto 1fr;
+    column-gap: 1rem;
+  }
+  .summary {
+    margin-top: 2rem;
+  }
+  .item {
+    width: 800px;
+  }
+}

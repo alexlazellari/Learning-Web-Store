@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Apple iPhone 11 Black",
+        "manufacturer":"Apple",
+        "price":672.89
+    },
+    {
+        "name":"Apple iPad 2020 Space Grey",
+        "manufacturer":"Apple",
+        "price":354.49
+    },
+    {
+        "name":"Samsung UE43TU7172 Smart 4K UHD",
+        "manufacturer":"Samsung",
+        "price":357.89
+    },
+    {
+        "name":"Samsung Galaxy Book Flex",
+        "manufacturer":"Samsung",
+        "price":1899.00
+    },
+    {
+        "name":"MSI MAG CH120",
+        "manufacturer":"MSI",
+        "price":219.00
+    }
+]
