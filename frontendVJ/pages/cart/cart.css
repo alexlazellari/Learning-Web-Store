@@ -90,7 +90,7 @@ body {
 }
 /* End increase & descrease button styling */
 
-.trash-bin-btn {
+.remove{
   background-color: transparent;
   color: #f44336;
   justify-self: start;
