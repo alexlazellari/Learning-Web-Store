@@ -93,7 +93,7 @@ class Storage {
 
 function setupProductPage() {
   cart = Storage.getCart();
-  updateTotalValue();
+  // updateTotalValue();
 }
 
 function displayProduct(product) {
@@ -123,6 +123,6 @@ function displayProduct(product) {
   mainDOM.appendChild(article);
 }
 
-function updateTotalValue() {
-  totalCart.textContent = cart.length;
-}
+// function updateTotalValue() {
+//   totalCart.textContent = cart.length;
+// }

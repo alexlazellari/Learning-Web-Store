@@ -1,27 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FELevelUp</title>
-    <link href="./style.css" rel="stylesheet">
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" type="text/css" href="./common.css">
+    <!-- Functionality of navbar -->
+    <script src="./navbar.js" defer></script>
+    <!-- CSS of home page -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- Functionality of home page -->
     <script src="./script.js" defer></script>
+
 </head>
+
 <body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__div">
+                <p class="nav__logo">LevelUp</p>
+                <div class="nav__burger">
+                    <div class="nav__line"></div>
+                    <div class="nav__line"></div>
+                    <div class="nav__line"></div>
+                </div>
+            </div>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="./index.html">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="./pages/cart/cart.html">Cart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Navbar -->
+
+
+
     <h1 class="title">Welcome to our store.</h1>
     <section class="section">
-
         <!-- Filter Section -->
         <aside class="filter">
             <form class="form" method="GET">
                 <div class="row">
                     <label for="search">Search by name: </label>
-                    <input type="text" name="search" id="search" placeholder="e.x Apple"> 
+                    <input type="text" name="search" id="search" placeholder="e.x Apple">
                 </div>
                 <div class="row">
                     <label for="price">Price: </label>
-                    <input type="range" name="price" id="price" min="10" max="3000" value="1000"> 
+                    <input type="range" name="price" id="price" min="10" max="3000" value="1000">
                     <output class="output" name="result" for="price">$1000</output>
                 </div>
                 <div class="row">
@@ -35,8 +71,8 @@
         <main class="pagination">
             <section class="products">
                 <!-- Product -->
-            
-                
+
+
                 <!-- End product -->
             </section>
 
@@ -44,11 +80,12 @@
                 <!-- Pages -->
 
 
-            <!-- End pages -->
+                <!-- End pages -->
             </section>
         </main>
     </section>
-  
-    
-</body>  
+
+
+</body>
+
 </html>

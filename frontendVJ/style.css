@@ -1,15 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #1c1e21;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  height: 100vh;
-}
 
 /* Section style */
 .section {
@@ -85,7 +73,6 @@ label {
 
 /* Main style */
 .pagination {
-  height: 100%;
   margin: auto;
   max-width: 1400px;
   width: 94%;
@@ -94,7 +81,7 @@ label {
 
 .title {
   color: #ddd;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 3.5rem;
   margin-top: 4rem;
   text-align: center;
@@ -156,8 +143,9 @@ label {
   border: 1px solid #fff;
   color: #fff;
   cursor: pointer;
+  display: inline-block;
   font-weight: 600;
-  margin-left: 1rem;
+  margin-left: .5rem;
   padding: 0.5rem;
   text-decoration: none;
   transition: background-color 0.5s ease-in-out, color 0.4s ease-in-out;

@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Alex Lazellari">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product-Name</title>
+    <!-- CSS Common -->
+    <link rel="stylesheet" type="text/css" href="../../common.css">
+    <!-- Navbar functionality -->
+    <script src="../../navbar.js" defer></script>
+    <!-- CSS of product page -->
     <link rel="stylesheet" type="text/css" href="./product.css">
+    <!-- Font awesome -->
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
+
 <body>
-    <header>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__div">
+                <p class="nav__logo">LevelUp</p>
+                <div class="nav__burger">
+                    <div class="nav__line"></div>
+                    <div class="nav__line"></div>
+                    <div class="nav__line"></div>
+                </div>
+            </div>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="../cart/cart.html">Cart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Navbar -->
+
+
+    <!-- <header>
         <div class="cart">
             <a href="../cart/cart.html" title="Go to shopping cart"><i class="fas fa-shopping-cart"></i></a>
             <span class="cart-total">0</span>
         </div>
-    </header>
+    </header> -->
     <main class="main">
         <!-- Product Article -->
-      
+
         <!-- End product article -->
     </main>
 
@@ -26,4 +60,5 @@
 
     <script src="./product.js"></script>
 </body>
+
 </html>
