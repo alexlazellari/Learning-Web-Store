@@ -93,6 +93,22 @@ body{
 /* End navbar styling */
 
 
+
+/* Footer styling */
+.footer{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 2rem 0;
+    width: 90%;
+}
+.footer__rights{
+    text-align: center;
+}
+/* End footer styling */
+
+
+
+/* Navbar media query */
 @media screen and ( min-width: 480px)
 {
 
@@ -100,11 +116,8 @@ body{
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin:0 auto;
-        max-width: 1400px;
         padding: 1.5rem;
-        width: 90%;
-        overflow-y: hidden;
+        overflow-y:auto;
     }
     
     .nav__div{
@@ -116,8 +129,6 @@ body{
         display: flex;
         height: auto;
         justify-content: space-between;
-        list-style-type: none;
-        position: relative;
         transition:none;
     }
 
@@ -130,3 +141,4 @@ body{
     }
 
 }
+/* End navbar media query */
