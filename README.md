@@ -25,7 +25,7 @@ This project is an E-commerce website with user-customer and admin roles. It is 
 2. Run `node ./seeders/products.seeder.js` to insert data from `./data/products.json` into the products table.
 3. Configure the backend environment variables as shown in the image below:
 
-   ![alt text](https://github.com/project-dec/Learning-Web-Store/blob/master/ReadMeImages/ecommercebackendenvvar.png?raw=true)
+   ![alt text](https://github.com/alexlazellari/Learning-Web-Store/blob/master/ReadMeImages/ecommercebackendenvvar.png)
 
 4. Create an account on [mailtrap.io](https://mailtrap.io).
 
